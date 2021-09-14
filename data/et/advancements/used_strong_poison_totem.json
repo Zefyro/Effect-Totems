@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "nbt": "{ET:{Poison:3b}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "et:effects/strong_poison"
+    }
+}

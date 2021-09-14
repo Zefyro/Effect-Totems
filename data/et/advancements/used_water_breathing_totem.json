@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "nbt": "{ET:{Water_Breathing:1b}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "et:effects/water_breathing"
+    }
+}

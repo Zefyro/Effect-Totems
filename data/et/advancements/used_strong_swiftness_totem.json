@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "nbt": "{ET:{Swiftness:3b}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "et:effects/strong_swiftness"
+    }
+}

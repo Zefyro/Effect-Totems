@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "nbt": "{ET:{Turtle_Master:1b}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "et:effects/turtle_master"
+    }
+}
